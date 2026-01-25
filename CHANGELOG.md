@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.77.0 (2026-01-25)
+
+Full Changelog: [v0.76.0...v0.77.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.76.0...v0.77.0)
+
+### Features
+
+* **api:** migrate sending message format in output_config rather than output_format ([af405e4](https://github.com/anthropics/anthropic-sdk-python/commit/af405e473f7cf6091cb8e711264227b9b0508528))
+
+
+### Bug Fixes
+
+* **structured outputs:** avoid including beta header if `output_format` is missing ([#1121](https://github.com/anthropics/anthropic-sdk-python/issues/1121)) ([062077e](https://github.com/anthropics/anthropic-sdk-python/commit/062077e50d182719637403576f59761999b3b2f5))
+
+
+### Chores
+
+* **ci:** upgrade `actions/github-script` ([34df616](https://github.com/anthropics/anthropic-sdk-python/commit/34df6160ad386a7e8848e3435b22bd18bd726702))
+* **internal:** update `actions/checkout` version ([ea50de9](https://github.com/anthropics/anthropic-sdk-python/commit/ea50de95bd1e43b8f00a45ef472330a3c8b396c8))
+
 ## 0.76.0 (2026-01-13)
 
 Full Changelog: [v0.75.0...v0.76.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.75.0...v0.76.0)
